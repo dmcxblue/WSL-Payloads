@@ -31,7 +31,7 @@ Thanks to a tweet, I discovered **Alpine Linux**, a great choice due to its mini
 
 The **WSL configuration file**, which only needs the `[oobe]` tag and a default name to function. This config file must be placed under the `/etc` directory.
 
-Example `wsl.conf`:
+Example `wsl-distribution.conf`:
 
 ```ini
 [oobe]
@@ -67,7 +67,7 @@ This script executes the beacon payload.
 Once you have:
 
 - The OS (e.g., Alpine Linux)
-- The `wsl.conf` configuration file
+- The `wsl-distribution.conf` configuration file
 - The payload and launch script
 
 You can compile everything into a WSL-compatible tarball:
