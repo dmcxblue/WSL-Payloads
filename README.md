@@ -76,7 +76,7 @@ You can compile everything into a WSL-compatible tarball:
 tar --numeric-owner -cf Alpine.tar -C /tmp/alpine/ .
 ```
 
-This results in a small `.tar` which we simply rename to the `WSL` extention.
+This results in a small `.tar` which we simply rename to the `WSL` extension.
 
 ## Demo:
 https://github.com/user-attachments/assets/e018627d-a896-4839-b891-28d70acfab49
